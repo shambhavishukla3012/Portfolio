@@ -1,0 +1,115 @@
+@import '../../styles/common.css';
+
+
+.about-me {
+    padding: 6rem 2rem;
+    background-color: var(--color-white);
+    margin-top: 10%;
+    height: 100vh;
+}
+
+.about-me h2 {
+    text-align: center;
+    color: var(--color-dark);
+    margin-bottom: 3rem;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-tabs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.tab-button {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: var(--font-size-base);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+    color: var(--color-dark);
+}
+
+.tab-button:hover {
+    color: var(--color-pastel-mint);
+    background-color: var(--color-dark);
+}
+
+.tab-button.active {
+    border-bottom: 2px solid var(--color-pastel-mint);
+    color: var(--color-dark);
+}
+.tab-button.active:hover{
+  color: var(--color-pastel-mint);
+}
+
+.tab-content {
+    flex: 1;
+    padding-right: 2rem;
+}
+
+.tab-content h3 {
+    color: var(--color-dark);
+    margin-bottom: 1rem;
+}
+
+.tab-content p {
+    color: var(--color-black);
+    line-height: 1.6;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image img {
+    max-width: 45%;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.about-image img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+@media (max-width: 768px) {
+    .about-me {
+        padding: 4rem 1rem;
+    }
+
+    .about-content {
+        flex-direction: column-reverse;
+    }
+
+    .tab-content {
+        padding-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .about-image img {
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .about-tabs {
+        flex-wrap: wrap;
+    }
+
+    .tab-button {
+        margin: 5px;
+    }
+}

@@ -1,0 +1,86 @@
+@import '../../styles/common.css';
+
+.skills {
+  height: max-content;
+    padding: 6rem 2rem 0 2rem;
+    background-color: var(--color-white);
+    height: max-content;
+    min-height: 100vh;
+}
+
+.skills h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--color-dark);
+    font-size: var(--font-size-h2);
+}
+
+.category-filter {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
+
+.category-filter button {
+    margin: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    background-color: var(--color-light-gray);
+    color: var(--color-dark);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: var(--border-radius);
+    font-size: var(--font-size-base);
+}
+
+.category-filter button:hover {
+    background-color: var(--color-pastel-mint);
+    transform: translateY(-2px);
+}
+
+.category-filter button.active {
+    background-color: var(--color-pastel-mint);
+    color: var(--color-dark);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.skill-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.skill-tag {
+    padding: 0.75rem 1.5rem;
+    background-color: var(--color-pastel-mint);
+    color: var(--color-dark);
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    font-size: var(--font-size-base);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.skill-tag:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .skills {
+        padding: 4rem 1rem;
+    }
+
+    .category-filter button {
+        padding: 0.5rem 1rem;
+        font-size: var(--font-size-small);
+    }
+
+    .skill-tag {
+        padding: 0.5rem 1rem;
+        font-size: var(--font-size-small);
+    }
+}

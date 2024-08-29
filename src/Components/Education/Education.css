@@ -1,0 +1,95 @@
+@import '../../styles/common.css';
+
+.education {
+  margin-top: 1%;
+  padding: 6rem 2rem;
+  background-color: var(--color-white);
+  height: 100vh;
+}
+
+.education h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: var(--font-size-h2);
+  color: var(--color-dark);
+}
+
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.education-card {
+  background-color: var(--color-white);
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-content {
+  padding: 1.5rem;
+}
+
+.card-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #e5c5c5; /* Pastel mint with opacity */
+  color: var(--color-dark);
+  padding: 1.5rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.education-card:hover .card-hover {
+  opacity: 1;
+}
+
+.education-card h3 {
+  margin-bottom: 0.5rem;
+  color: var(--color-dark);
+  font-size: var(--font-size-h4);
+}
+
+.institution {
+  font-weight: bold;
+  color: var(--color-dark);
+  font-size: var(--font-size-h5);
+}
+
+.period {
+  font-style: italic;
+  color: var(--color-dark);
+  margin-top: 0.5rem;
+  font-size: var(--font-size-small);
+}
+
+.card-hover p {
+  font-size: var(--font-size-base);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .education {
+    padding: 4rem 1rem;
+  }
+
+  .education-grid {
+    grid-template-columns: 1fr;
+  }
+}
