@@ -8,12 +8,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 8%;
-  padding-right: 8%;
+  padding-left: 10%;
+  padding-right: 10%;
   background-color: var(--color-pastel-mint);
   transition: all 0.3s ease;
   z-index: 1000;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  height: 10vh;
 }
 
 .header.scrolled {
@@ -22,7 +23,7 @@
 }
 
 .logo {
-  font-size: var(--font-size-xxl);
+  font-size: var(--font-size-xl);
   font-weight: bold;
   color: var(--color-dark);
   text-decoration: none;
@@ -50,7 +51,7 @@
   background: none;
   border: none;
   cursor: pointer;
-  font-size: var(--font-size-h6);
+  font-size: var(--font-size-h5);
   color: var(--color-dark);
   padding: 0.5rem 1rem;
   border-radius: var(--border-radius);

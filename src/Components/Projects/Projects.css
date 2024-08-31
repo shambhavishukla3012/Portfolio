@@ -1,10 +1,9 @@
 @import '../../styles/common.css';
 
 .projects {
-    /* padding: 6rem 2rem; */
-    min-height: 100vh;
+    padding: 6rem 2rem;
     background-color: var(--color-white);
-    /* height: max-content; */
+    /* min-height: 100vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,13 +35,11 @@
     border-radius: var(--border-radius);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
-    
 }
 
 .carousel-item.active {
     display: block;
     animation: fadeIn 0.5s ease-in-out;
-    margin: black solid 2px;
 }
 
 @keyframes fadeIn {
@@ -86,38 +83,33 @@
 .carousel-item h3 {
     color: var(--color-dark);
     margin-bottom: 0.5rem;
-    font-size: var(--font-size-h2);
+    font-size: var(--font-size-h3);
 }
 
-h3{
-    padding: 2rem;
-}
 .period {
     font-style: italic;
     color: var(--color-light-gray);
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     font-size: var(--font-size-small);
 }
 
 .description {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     line-height: 1.6;
     color: var(--color-black);
     font-size: var(--font-size-base);
-    padding: 2rem;
 }
 
 .technologies {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
-    padding-bottom: 2rem;
 }
 
 .tech-tag {
     background-color: var(--color-pastel-mint);
     color: var(--color-dark);
-    padding: 0.5rem 0.75rem;
+    padding: 0.25rem 0.5rem;
     border-radius: var(--border-radius);
     font-size: var(--font-size-small);
     transition: all 0.3s ease;
