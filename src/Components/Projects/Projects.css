@@ -1,12 +1,14 @@
 @import '../../styles/common.css';
 
 .projects {
-    padding: 6rem 2rem;
+    padding: 0 2rem 6rem 2rem;
     background-color: var(--color-white);
-    /* min-height: 100vh; */
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: -4rem;
+
 }
 
 .projects h2 {
@@ -14,6 +16,7 @@
     color: var(--color-dark);
     margin-bottom: 3rem;
     font-size: var(--font-size-h2);
+    margin-bottom: 2px;
 }
 
 .carousel {
@@ -33,7 +36,7 @@
     padding: 2rem;
     background-color: var(--color-white);
     border-radius: var(--border-radius);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 20px 10px 20px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
 }
 
@@ -91,7 +94,7 @@
     color: var(--color-light-gray);
     margin-bottom: 1rem;
     font-size: var(--font-size-small);
-    margin-top: -5rem;
+    
 }
 
 .description {

@@ -2,10 +2,10 @@
 
 .skills {
   height: max-content;
-    padding: 6rem 2rem 0 2rem;
+    padding: 6rem 1rem;
     background-color: var(--color-white);
-    height: max-content;
-    min-height: 100vh;
+    max-height: 100vh;
+    /* margin-top: rem; */
 }
 
 .skills h2 {
@@ -55,7 +55,7 @@
 }
 
 .skill-tag {
-    padding: 0.75rem 1.5rem;
+    padding: 0.75rem 1rem;
     background-color: var(--color-pastel-mint);
     color: var(--color-dark);
     border-radius: 30px;

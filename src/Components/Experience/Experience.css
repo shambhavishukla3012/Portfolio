@@ -1,8 +1,13 @@
 @import '../../styles/common.css';
 
 .experience {
-    padding: 5rem 2rem;
+    padding: 0 2rem ;
     background-color: var(--color-white);
+    margin-top: -20rem;
+    height: 100vh;
+    padding-bottom: 12rem;
+    margin-bottom: 5rem;
+
 }
 
 .experience h2 {
