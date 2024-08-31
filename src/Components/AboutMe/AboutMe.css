@@ -2,9 +2,9 @@
 
 
 .about-me {
-    padding: 6rem 2rem;
+    padding: 5rem 2rem;
     background-color: var(--color-white);
-    margin-top: 10%;
+    /* margin-top: 10%; */
     height: 100vh;
 }
 

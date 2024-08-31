@@ -26,7 +26,7 @@ const Header = () => {
 
   return (
     <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
-      <div className="logo">Shambhavi A Shukla</div>
+      <div className="logo">Shambhavi Shukla</div>
       <nav className={`nav ${isMenuOpen ? 'open' : ''}`}>
         <ul>
           <li><button onClick={() => scrollToSection('about')}>About</button></li>
