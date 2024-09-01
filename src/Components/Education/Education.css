@@ -48,7 +48,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #e5c5c5; /* Pastel mint with opacity */
+  background-color: var(--color-white); /* Pastel mint with opacity */
   color: var(--color-dark);
   padding: 1.5rem;
   opacity: 0;

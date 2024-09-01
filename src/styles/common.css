@@ -7,8 +7,8 @@
   
   /* Font families */
 
-  --font-primary: 'Arial', sans-serif; /* Replace with your chosen font */
-  --font-secondary: 'Georgia', serif; /* Replace with your chosen font */
+  --font-primary: 'Arial', sans-serif; 
+  --font-secondary: 'Georgia', serif; 
   
   /* Font sizes */
   --font-size-base: 16px;
@@ -33,7 +33,7 @@
   --border-radius: 4px;
 }
 
-/* Common styles */
+
 body {
   font-family: var(--font-primary);
   font-size: var(--font-size-base);
@@ -53,4 +53,3 @@ p { font-size: var(--font-size-base); }
 .text-small { font-size: var(--font-size-small); }
 .text-large { font-size: var(--font-size-large); }
 
-/* Add any other common styles here */
