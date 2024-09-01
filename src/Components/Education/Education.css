@@ -88,7 +88,8 @@
 
 @media (max-width: 768px) {
   .education {
-    padding: 4rem 1rem;
+    padding: 8rem 1rem;
+    margin-top: 15rem;
   }
 
   .education-grid {

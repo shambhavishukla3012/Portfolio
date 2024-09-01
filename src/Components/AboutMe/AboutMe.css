@@ -88,7 +88,9 @@
 
 @media (max-width: 768px) {
     .about-me {
-        padding: 4rem 1rem;
+        padding: 5rem 1rem;
+        margin-bottom: 5rem;
+        height: 100vh;
     }
 
     .about-content {
