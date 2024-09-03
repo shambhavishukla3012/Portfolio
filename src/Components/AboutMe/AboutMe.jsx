@@ -25,8 +25,8 @@ const AboutMe = () => {
           <p>{aboutMeData[activeTab].content}</p>
         </div>
         <div className="about-image">
-          {/* <img src="https://raw.githubusercontent.com/shambhavishukla3012/Portfolio/main/src/assets/aboutme.jpg" alt="Shambhavi Arvind Shukla" /> */}
-          <img src="src\assets\about_me.jpg" alt="Shambhavi Arvind Shukla" />
+          <img src="https://raw.githubusercontent.com/shambhavishukla3012/Portfolio/main/src/assets/about_me.jpg" alt="Shambhavi Arvind Shukla" />
+          {/* <img src="src\assets\about_me.jpg" alt="Shambhavi Arvind Shukla" /> */}
         </div>
       </div>
     </section>
