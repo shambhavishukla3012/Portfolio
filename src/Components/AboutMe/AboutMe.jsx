@@ -26,7 +26,6 @@ const AboutMe = () => {
         </div>
         <div className="about-image">
           <img src="https://raw.githubusercontent.com/shambhavishukla3012/Portfolio/main/src/assets/about_me.jpg" alt="Shambhavi Arvind Shukla" />
-          {/* <img src="src\assets\about_me.jpg" alt="Shambhavi Arvind Shukla" /> */}
         </div>
       </div>
     </section>
